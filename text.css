@@ -1,42 +1,46 @@
-#james{
-    background-color:rgb(50, 50, 60);
-    color:rgb(0, 0, 0);
-box-sizing: 50px;
-width: 200px;
+#bround {
+    background-color: grey;
+}
+
+.space {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 0%;
 
 }
 
-#boz{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    background-color:rgb(255, 255, 255);
-    height: 100px;
-   width: 100px;
-   margin:0%;
+#whiteSpace {
+    background-color: white;
+
 }
 
-#bSpot{
-    color:rgb(255, 255, 255);
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    background-color:rgb(0, 0, 0);
-    height: 100px;
-   width: 100px;
-   margin:0%;
+#blackSpace {
+    background-color: rgb(0, 0, 0);
+
 }
 
-.pawn{
-     color:rgb(255, 255, 255);
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    background-color:rgb(0, 0, 0);
+.pawn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
     height: 100px;
-   width: 100px;
-   border-radius:50%;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#whitePawn {
+    background-color: rgb(178, 160, 160);
+    color: green;
+}
+
+#blackPawn {
+    background-color: rgb(58, 55, 55);
+    color: red;
 }
