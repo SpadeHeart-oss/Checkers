@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+    
+    border:20px solid black;
+    height:700px;
+    width:900px;
+flex-wrap:wrap;
+align-content:flex-start;
+}
+
+.checkerboard{
+    height:100px;
+    width:100px;
+}
+
+#whitespace{
+    background-color:rgb(222, 213, 213);
+}
+
+#blackspace{
+    background-color:rgb(0, 0, 0);
+}
